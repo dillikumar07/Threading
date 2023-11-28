@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:layout_margin="24dp"
+tools:context=".MainActivity" >
+<TextView
+android:id="@+id/title"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+android:gravity="center|center_vertical|center_horizontal"
+android:textSize="40dp"
+android:text="Threads"
+android:textStyle="bold"
+android:typeface="monospace"
+android:textColor="#000000" />
+<TextView
+android:id="@+id/change_color"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+android:gravity="center|center_vertical|center_horizontal"
+android:textSize="24sp"
+android:text="Color Changing"
+android:textStyle="bold"
+android:typeface="monospace"
+android:textColor="#000000" />
+<TextView
+android:id="@+id/moving_banner"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+android:gravity="center|center_vertical|center_horizontal"
+android:textSize="24sp"
+android:text="Banner"
+android:textStyle="bold"
+android:typeface="monospace"
+android:textColor="#000000" />
+<TextView
+android:id="@+id/counter"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+android:gravity="center|center_vertical|center_horizontal"
+android:textSize="24sp"
+android:text="Counter: 0"
+android:textStyle="bold"
+android:typeface="monospace"
+android:textColor="#000000" />
+<TableLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginTop="100dp">
+<Button
+android:id="@+id/start"
+android:layout_width="110dp"
+android:layout_height="50dp"
+android:gravity="center|center_vertical|center_horizontal"
+android:textSize="14sp"
+android:text="Start"
+android:textStyle="bold"
+android:typeface="monospace"
+android:textColor="#ffffff"
+android:backgroundTint="#000000" />
+<Button
+android:id="@+id/resume"
+android:layout_width="110dp"
+android:layout_height="50dp"
+android:gravity="center|center_vertical|center_horizontal"
+android:layout_marginStart="15dp"
+android:textSize="14sp"
+android:text="Resume"
+android:textStyle="bold"
+android:typeface="monospace"
+android:textColor="#ffffff"
+android:backgroundTint="#000000" />
+<Button
+android:id="@+id/stop"
+android:layout_width="110dp"
+android:layout_height="50dp"
+android:gravity="center|center_vertical|center_horizontal"
+android:layout_marginStart="15dp"
+android:textSize="14sp"
+android:text="Stop"
+android:textStyle="bold"
+android:typeface="monospace"
+android:textColor="#ffffff"
+android:backgroundTint="#000000" />
+</TableRow>
+</TableLayout>
+</LinearLayout>
